@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="XPSkia.App">
     <Application.Resources>
+        <ResourceDictionary>
+
+        <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#1B232E" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Visual" Value="Material" />
+
+        </Style>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

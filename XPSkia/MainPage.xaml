@@ -1,7 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="XPSkia.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="XPSkia.MainPage"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	BackgroundColor="#1B232E"
+	mc:Ignorable="d">
+	<Grid RowDefinitions="50, 100, 100, 14, 20">
+
+
+		<Label
+			Grid.Row="0"
+			Grid.Column="0"
+			FontSize="Large"
+			Text="Exemplos para o Timaço Bull"
+			TextColor="White" />
+
+		<!--  DRAW THE BULL LOGO  -->
+		<Frame
+			Grid.Row="1"
+			BackgroundColor="#1B232E"
+			BorderColor="WhiteSmoke"
+			CornerRadius="5"
+			HeightRequest="100"
+			WidthRequest="100">
+			<StackLayout>
+				<Label
+					FontSize="Large"
+					HorizontalOptions="FillAndExpand"
+					HorizontalTextAlignment="Center"
+					Text="Desenhar Logo Bull"
+					TextColor="White"
+					VerticalOptions="FillAndExpand"
+					VerticalTextAlignment="Center" />
+			</StackLayout>
+			<Frame.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OpenDrawLogo_Tapped" />
+			</Frame.GestureRecognizers>
+		</Frame>
+
+		<!--  ANIMATION  -->
+		<Frame
+			Grid.Row="2"
+			BackgroundColor="#1B232E"
+			BorderColor="WhiteSmoke"
+			CornerRadius="5"
+			HeightRequest="100"
+			WidthRequest="100">
+			<StackLayout>
+				<Label
+					FontSize="Large"
+					HorizontalOptions="FillAndExpand"
+					HorizontalTextAlignment="Center"
+					Text="Animaçoes"
+					TextColor="White"
+					VerticalOptions="FillAndExpand"
+					VerticalTextAlignment="Center" />
+			</StackLayout>
+			<Frame.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OpenAnimationPage_Tapped" />
+			</Frame.GestureRecognizers>
+		</Frame>
+	</Grid>
 </ContentPage>

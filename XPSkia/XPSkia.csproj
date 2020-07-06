@@ -12,5 +12,13 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.7.0.1080" />
+    <PackageReference Include="SkiaSharp" Version="1.68.3" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.3" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Examples\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>

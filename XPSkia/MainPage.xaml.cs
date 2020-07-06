@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Xamarin.Forms;
+using XPSkia.Examples;
+using XPSkia.Helpers;
 
 namespace XPSkia
 {
@@ -16,6 +13,20 @@ namespace XPSkia
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        void OpenDrawLogo_Tapped(System.Object sender, System.EventArgs e)
+        {
+            AnimationHelpers.DoButtonAnimation(sender);
+
+            Navigation.PushModalAsync(new DrawLogoPage());
+        }
+
+        void OpenAnimationPage_Tapped(System.Object sender, System.EventArgs e)
+        {
+            AnimationHelpers.DoButtonAnimation(sender);
+
+            Navigation.PushModalAsync(new AnimationPage());
         }
     }
 }
