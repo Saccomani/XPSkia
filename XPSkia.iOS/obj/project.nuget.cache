@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZY4A/M3c6Bs4dID5KeFxmY5pL7xXbkshvgBogd7TEFAZ0nFHx0uOOpGoj7itW3ivcwMh9pAIQo+cxye2JckvGg==",
+  "success": true,
+  "projectFilePath": "/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.iOS/XPSkia.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/u003088/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/u003088/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/u003088/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
