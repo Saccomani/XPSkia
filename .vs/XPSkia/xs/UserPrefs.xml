@@ -1,5 +1,23 @@
 ﻿<Properties StartupConfiguration="{3529DD07-7A54-4E4C-86D7-19404B8F88F5}|Default">
   <MonoDevelop.Ide.ItemProperties.XPSkia FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.XPSkia.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.XPSkia.Mac FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XPSkia.Mac/AppDelegate.cs">
+    <Files>
+      <File FileName="XPSkia.Mac/AppDelegate.cs" Line="14" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XPSkia" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XPSkia.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ABE97B01-4C40-46E3-ADC2-64BF33221E87" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

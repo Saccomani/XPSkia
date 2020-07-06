@@ -1,0 +1,133 @@
+## Ignore os arquivos temporários do Visual Studio, crie resultados e
+## arquivos gerados por complementos populares do Visual Studio.
+
+# Arquivos específicos do usuário
+* .suo
+*.do utilizador
+* .sln.docstates
+
+# Construir resultados
+
+[Dd] ebug /
+[Rr] elease /
+x64 /
+[Bb] em /
+[Oo] bj /
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+*.registro
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+*.registro
+* .svclog
+* .scc
+
+# Arquivos de cache do Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio Profiler
+* .psess
+* .vsp
+* .vspx
+
+# Kit de ferramentas de automação de orientação
+* .gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+* .DotSettings.user
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+* .Publish.xml
+* .pubxml
+* .azurePubxml
+
+# Diretório de pacotes NuGet
+## TODO: Se você tiver o NuGet Package Restore ativado, remova o comentário da próxima linha
+pacotes /
+## TODO: Se a ferramenta usada exigir repositories.config, descomente também a próxima linha
+! packages / repositories.config
+
+# Saída de compilação do Windows Azure
+csx /
+* .build.csdef
+
+# Diretório de pacotes de aplicativos da Windows Store
+AppPackages /
+
+# Outras
+sql /
+* .Cache
+ClientBin /
+[Ss] tyle [Cc] op. *
+! [Ss] tyle [Cc] op.targets
+~ $ *
+* ~
+* .dbmdl
+*. [Pp] ublish.xml
+
+* .publishsettings
+
+# Projetos RIA / Silverlight
+Generated_Code /
+
+# Faça backup e relate arquivos da conversão de um arquivo de projeto antigo para um mais recente
+# Versão do Visual Studio. Arquivos de backup não são necessários, porque temos o git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Arquivos do SQL Server
+App_Data / *. Mdf
+App_Data / *. Ldf
+
+# =========================
+# Detritos do Windows
+# =========================
+
+# Caches de arquivos de imagem do Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivo de configuração de pasta
+Desktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$ RECYCLE.BIN /
+
+# Arquivos de armazenamento de serviço de desktop Mac
+.DS_Store
+
+_NCrunch *
