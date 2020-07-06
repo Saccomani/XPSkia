@@ -30,5 +30,7 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleDisplayName</key>
 	<string>XPSkia.Mac</string>
+	<key>ATSApplicationFontsPath</key>
+	<string>Fonts</string>
 </dict>
 </plist>

@@ -72,6 +72,9 @@
     <Reference Include="SkiaSharp.Views.Forms">
       <HintPath>..\packages\SkiaSharp.Views.Forms.1.68.3\lib\xamarinmac2.0\SkiaSharp.Views.Forms.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -89,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Fonts\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -107,6 +111,17 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bull_logo_splash.png" />
+    <BundleResource Include="Resources\Fonts\Roboto-Medium.ttf" />
+    <BundleResource Include="Resources\Fonts\Roboto-Regular.ttf" />
+    <BundleResource Include="Resources\Fonts\segoe-wp.ttf" />
+    <BundleResource Include="Resources\Fonts\SegoeWP-Black.ttf" />
+    <BundleResource Include="Resources\Fonts\SegoeWP-Bold.ttf" />
+    <BundleResource Include="Resources\Fonts\SegoeWP-Light.ttf" />
+    <BundleResource Include="Resources\Fonts\SegoeWP-Semibold.ttf" />
+    <BundleResource Include="Resources\Fonts\SegoeWP-Semilight.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.4.7.0.1080\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.4.7.0.1080\build\Xamarin.Forms.targets')" />

@@ -5,13 +5,13 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	BackgroundColor="#1B232E"
+
 	mc:Ignorable="d">
 	<Grid RowDefinitions="50, 100, 100, 14, 20">
 
-
+		<Image Grid.Row="0" Grid.Column="0" Source="bull_logo_splash.png" HorizontalOptions="Start"/>
 		<Label
-			Grid.Row="0"
+			Grid.Row="1"
 			Grid.Column="0"
 			FontSize="Large"
 			Text="Exemplos para o Timaço Bull"
@@ -30,7 +30,7 @@
 					FontSize="Large"
 					HorizontalOptions="FillAndExpand"
 					HorizontalTextAlignment="Center"
-					Text="Desenhar Logo Bull"
+					Text="Desenhar Logo (SVG)"
 					TextColor="White"
 					VerticalOptions="FillAndExpand"
 					VerticalTextAlignment="Center" />
@@ -60,6 +60,54 @@
 			</StackLayout>
 			<Frame.GestureRecognizers>
 				<TapGestureRecognizer Tapped="OpenAnimationPage_Tapped" />
+			</Frame.GestureRecognizers>
+		</Frame>
+
+		<!--  DRAW THE BULL LOGO  -->
+		<Frame
+			Grid.Row="1"
+			Grid.Column="1"
+			BackgroundColor="#1B232E"
+			BorderColor="WhiteSmoke"
+			CornerRadius="5"
+			HeightRequest="100"
+			WidthRequest="100">
+			<StackLayout>
+				<Label
+					FontSize="Large"
+					HorizontalOptions="FillAndExpand"
+					HorizontalTextAlignment="Center"
+					Text="GRAFICO"
+					TextColor="White"
+					VerticalOptions="FillAndExpand"
+					VerticalTextAlignment="Center" />
+			</StackLayout>
+			<Frame.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OpenAStockPage_Tapped" />
+			</Frame.GestureRecognizers>
+		</Frame>
+
+		<!--  ANIMATION  -->
+		<Frame
+			Grid.Row="2"
+				Grid.Column="1"
+			BackgroundColor="#1B232E"
+			BorderColor="WhiteSmoke"
+			CornerRadius="5"
+			HeightRequest="100"
+			WidthRequest="100">
+			<StackLayout>
+				<Label
+					FontSize="Large"
+					HorizontalOptions="FillAndExpand"
+					HorizontalTextAlignment="Center"
+					Text="EXEMPLO 4"
+					TextColor="White"
+					VerticalOptions="FillAndExpand"
+					VerticalTextAlignment="Center" />
+			</StackLayout>
+			<Frame.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OpenAStockPage2_Tapped" />
 			</Frame.GestureRecognizers>
 		</Frame>
 	</Grid>

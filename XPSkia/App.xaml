@@ -1,15 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="XPSkia.App">
-    <Application.Resources>
-        <ResourceDictionary>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+	x:Class="XPSkia.App"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d">
+	<Application.Resources>
+		<ResourceDictionary>
 
-        <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
-            <Setter Property="BackgroundColor" Value="#1B232E" />
-            <Setter Property="Padding" Value="10" />
-            <Setter Property="Visual" Value="Material" />
+			        <!--Global Styles-->
+            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+            <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
+                <On Platform="Android" Value="OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="UWP" Value="/Assets/OpenSans-Bold.ttf#Open Sans" />
+                <On Platform="iOS" Value="OpenSans-Bold" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="OpenSans-Regular.ttf#Open Sans" />
+                <On Platform="UWP" Value="/Assets/OpenSans-Regular.ttf#Open Sans" />
+                <On Platform="iOS" Value="OpenSans-Regular" />
+            </OnPlatform>
 
-        </Style>
 
-        </ResourceDictionary>
-    </Application.Resources>
+			<OnPlatform x:Key="FontPadrao" x:TypeArguments="x:String">
+				<On Platform="macOS" Value="SegoeWP-Bold" />
+			</OnPlatform>
+
+
+
+			<Style TargetType="Label">
+				<Setter Property="FontFamily" Value="{DynamicResource FontPadrao}" />
+				<Setter Property="FontSize" Value="Default" />
+				<Setter Property="FontSize">
+					<Setter.Value>
+						<OnPlatform x:TypeArguments="x:Double">
+							<On Platform="Android">11</On>
+							<On Platform="iOS">16</On>
+							<On Platform="macOs">90</On>
+						</OnPlatform>
+					</Setter.Value>
+				</Setter>
+			</Style>
+
+			<Style ApplyToDerivedTypes="True" TargetType="ContentPage">
+				<Setter Property="BackgroundColor" Value="#1B232E" />
+				<Setter Property="Padding" Value="10" />
+				<Setter Property="Visual" Value="Material" />
+
+			</Style>
+
+		</ResourceDictionary>
+	</Application.Resources>
 </Application>

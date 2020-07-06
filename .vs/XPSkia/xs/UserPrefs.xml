@@ -1,22 +1,11 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F481D396-2FE3-48AE-83E2-8F469DAE2FEF}|Default">
   <MonoDevelop.Ide.ItemProperties.XPSkia.Mac PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="XPSkia/Examples/AnimationPage.xaml" Line="10" Column="27" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XPSkia" expanded="True" selected="True">
-            <Node name="XPSkia" expanded="True">
-              <Node name="Examples" expanded="True">
-                <Node name="AnimationPage.xaml" expanded="True" />
-              </Node>
-              <Node name="MainPage.xaml" expanded="True" />
-            </Node>
-            <Node name="XPSkia.Mac" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
+            <Node name="XPSkia.Mac" expanded="True" />
           </Node>
         </State>
       </Pad>

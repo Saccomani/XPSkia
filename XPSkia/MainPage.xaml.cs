@@ -28,5 +28,19 @@ namespace XPSkia
 
             Navigation.PushModalAsync(new AnimationPage());
         }
+
+        void OpenAStockPage_Tapped(System.Object sender, System.EventArgs e)
+        {
+            AnimationHelpers.DoButtonAnimation(sender);
+
+            Navigation.PushModalAsync(new StockViewPage());
+        }
+
+        void OpenAStockPage2_Tapped(System.Object sender, System.EventArgs e)
+        {
+            AnimationHelpers.DoButtonAnimation(sender);
+
+            Navigation.PushModalAsync(new Stock2ViewPage());
+        }
     }
 }
