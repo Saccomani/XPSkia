@@ -1,20 +1,22 @@
-﻿<Properties StartupConfiguration="{3529DD07-7A54-4E4C-86D7-19404B8F88F5}|Default">
-  <MonoDevelop.Ide.ItemProperties.XPSkia FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.XPSkia.Mac FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XPSkia.Mac/AppDelegate.cs">
-    <Files>
-      <File FileName="XPSkia.Mac/AppDelegate.cs" Line="14" Column="10" />
-    </Files>
+﻿<Properties StartupConfiguration="{F481D396-2FE3-48AE-83E2-8F469DAE2FEF}|Default">
+  <MonoDevelop.Ide.ItemProperties.XPSkia.Mac PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XPSkia" expanded="True" selected="True" />
+          <Node name="XPSkia" expanded="True">
+            <Node name="XPSkia.Mac" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.XPSkia.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ABE97B01-4C40-46E3-ADC2-64BF33221E87" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>XPSkia.iOS/XPSkia.iOS.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

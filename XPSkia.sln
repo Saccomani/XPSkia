@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPSkia.iOS", "XPSkia.iOS\XPSkia.iOS.csproj", "{3529DD07-7A54-4E4C-86D7-19404B8F88F5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPSkia", "XPSkia\XPSkia.csproj", "{68C1ACC9-79B2-4BF2-A329-147D54123BA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPSkia.Mac", "XPSkia.Mac\XPSkia.Mac.csproj", "{F481D396-2FE3-48AE-83E2-8F469DAE2FEF}"
@@ -17,18 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|iPhone.Build.0 = Debug|iPhone
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|iPhone.ActiveCfg = Release|iPhone
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|iPhone.Build.0 = Release|iPhone
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
-		{3529DD07-7A54-4E4C-86D7-19404B8F88F5}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
 		{68C1ACC9-79B2-4BF2-A329-147D54123BA7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{68C1ACC9-79B2-4BF2-A329-147D54123BA7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{68C1ACC9-79B2-4BF2-A329-147D54123BA7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
