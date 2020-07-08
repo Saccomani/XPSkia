@@ -7,9 +7,9 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<skiaforms:SKCanvasView
-				x:Name="chartCanvasView"
+				x:Name="canvasView"
 				PaintSurface="OnCanvasViewPaintSurface"
-				VerticalOptions="FillAndExpand" />
+				VerticalOptions="FillAndExpand" HeightRequest="400" WidthRequest="400"/>
 			<Button Clicked="Button_Clicked" Text="Voltar" />
 		</StackLayout>
 	</ContentPage.Content>

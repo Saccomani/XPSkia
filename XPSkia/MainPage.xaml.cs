@@ -17,30 +17,22 @@ namespace XPSkia
 
         void OpenDrawLogo_Tapped(System.Object sender, System.EventArgs e)
         {
-            AnimationHelpers.DoButtonAnimation(sender);
-
             Navigation.PushModalAsync(new DrawLogoPage());
         }
 
         void OpenAnimationPage_Tapped(System.Object sender, System.EventArgs e)
         {
-            AnimationHelpers.DoButtonAnimation(sender);
-
             Navigation.PushModalAsync(new AnimationPage());
         }
 
         void OpenAStockPage_Tapped(System.Object sender, System.EventArgs e)
         {
-            AnimationHelpers.DoButtonAnimation(sender);
-
             Navigation.PushModalAsync(new StockViewPage());
         }
 
         void OpenAStockPage2_Tapped(System.Object sender, System.EventArgs e)
         {
-            AnimationHelpers.DoButtonAnimation(sender);
-
-            Navigation.PushModalAsync(new Stock2ViewPage());
+            //Navigation.PushModalAsync(new Stock2ViewPage());
         }
     }
 }

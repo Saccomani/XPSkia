@@ -4,7 +4,10 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XPSkia" expanded="True" selected="True">
+          <Node name="XPSkia" expanded="True">
+            <Node name="XPSkia" expanded="True">
+              <Node name="Examples" selected="True" />
+            </Node>
             <Node name="XPSkia.Mac" expanded="True" />
           </Node>
         </State>

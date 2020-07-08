@@ -5,7 +5,6 @@
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/AnimationPage.xaml.g.cs
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/DrawLogoView.xaml.g.cs
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/Stock2ViewPage.xaml.g.cs
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/StockViewPage.xaml.g.cs
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.dll
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/ref/XPSkia.dll
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.pdb
+/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.csprojAssemblyReference.cache

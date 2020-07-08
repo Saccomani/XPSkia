@@ -24,6 +24,7 @@ namespace XPSkia.Examples
                 stockPrices1.Add(new Random().Next(0, 60));
                 stockPrices2.Add(new Random().Next(0, 500));
             }
+
             chartCanvasView.InvalidateSurface();
 
         }
@@ -44,12 +45,6 @@ namespace XPSkia.Examples
             SKPath path = new SKPath();
             float paddingX = 0.1f * info.Width;
             float paddingY = 0.1f * info.Height;
-            /*// X
-            path.MoveTo(paddingX, info.Height - paddingY);
-            path.LineTo(info.Width - paddingX, info.Height - paddingY);
-            // Y
-            path.MoveTo(paddingX, info.Height - paddingY);
-            path.LineTo(paddingX, paddingY);*/
 
             SKPaint strokePaint = new SKPaint
             {
@@ -93,7 +88,7 @@ namespace XPSkia.Examples
             if (stockPrices2.Count > 0)
             {
                 drawOneStockCompany(canvas, initX, initY, min, max - min, diffScaleX,
-                    diffScaleY, numPoints, stockPrices2, SKColors.Green);
+                    diffScaleY, numPoints, stockPrices2, SKColors.White);
             }
         }
 
