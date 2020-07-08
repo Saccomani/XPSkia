@@ -32,7 +32,7 @@ namespace XPSkia
 
         void OpenAStockPage2_Tapped(System.Object sender, System.EventArgs e)
         {
-            //Navigation.PushModalAsync(new Stock2ViewPage());
+            Navigation.PushModalAsync(new LivePage());
         }
     }
 }

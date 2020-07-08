@@ -183,5 +183,7 @@ namespace XPSkia.Examples
         {
             this.Navigation.PopModalAsync();
         }
+
+ 
     }
 }

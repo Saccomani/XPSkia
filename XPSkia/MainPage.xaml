@@ -5,17 +5,21 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-
 	mc:Ignorable="d">
 	<Grid RowDefinitions="50, 100, 100, 14, 20">
 
-		<Image Grid.Row="0" Grid.Column="0" Source="bull_logo_splash.png" HorizontalOptions="Start"/>
+		<StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalOptions="Center">
+				<Image  Source="bull_logo_splash.png" HorizontalOptions="Start"/>
 		<Label
-			Grid.Row="1"
-			Grid.Column="0"
+		
 			FontSize="Large"
+			VerticalOptions="Center"
+			HorizontalOptions="EndAndExpand"
+			HorizontalTextAlignment="End"
 			Text="Exemplos para o Timaço Bull"
 			TextColor="White" />
+		</StackLayout>
+	
 
 		<!--  DRAW THE BULL LOGO  -->
 		<Frame
@@ -53,7 +57,7 @@
 					FontSize="Large"
 					HorizontalOptions="FillAndExpand"
 					HorizontalTextAlignment="Center"
-					Text="Animaçoes"
+					Text="Animações"
 					TextColor="White"
 					VerticalOptions="FillAndExpand"
 					VerticalTextAlignment="Center" />
@@ -77,7 +81,7 @@
 					FontSize="Large"
 					HorizontalOptions="FillAndExpand"
 					HorizontalTextAlignment="Center"
-					Text="GRAFICO"
+					Text="Gráfico Simples"
 					TextColor="White"
 					VerticalOptions="FillAndExpand"
 					VerticalTextAlignment="Center" />
@@ -101,7 +105,7 @@
 					FontSize="Large"
 					HorizontalOptions="FillAndExpand"
 					HorizontalTextAlignment="Center"
-					Text="EXEMPLO 4"
+					Text="Kimono Designer"
 					TextColor="White"
 					VerticalOptions="FillAndExpand"
 					VerticalTextAlignment="Center" />
