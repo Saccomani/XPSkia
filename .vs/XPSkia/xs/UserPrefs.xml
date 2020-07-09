@@ -7,6 +7,8 @@
           <Node name="XPSkia" expanded="True" selected="True">
             <Node name="XPSkia" expanded="True">
               <Node name="Examples" expanded="True">
+                <Node name="AnimationPage.xaml" expanded="True" />
+                <Node name="DrawLogoView.xaml" expanded="True" />
                 <Node name="LivePage.xaml" expanded="True" />
                 <Node name="StockViewPage.xaml" expanded="True" />
               </Node>
