@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1W7lkhMJna0X+zc+uX/pxq7usXyFJoPl6DqHMJluYaDbe0Ks5/ZEWhvTirZlp1IL1er8LD85NQHdTiD16y+U9Q==",
+  "dgSpecHash": "zHfHx2Yblj+xI3fb2vKtyojP9ABuoMFLKohtqGGMghfJ2oDD0ILhr3dDyNiZ3ppAtpulDOSYHvc2FghORtIiEg==",
   "success": true,
-  "projectFilePath": "/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/XPSkia.csproj",
+  "projectFilePath": "/Users/u003088/Documents/GitHub/XPSkia/XPSkia/XPSkia.csproj",
   "expectedPackageFiles": [
     "/Users/u003088/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/u003088/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

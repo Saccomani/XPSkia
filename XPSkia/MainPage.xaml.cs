@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Xamarin.Forms;
 using XPSkia.Examples;
-using XPSkia.Helpers;
+
 
 namespace XPSkia
 {
@@ -17,12 +17,12 @@ namespace XPSkia
 
         void OpenDrawLogo_Tapped(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushModalAsync(new DrawLogoPage());
+            //Navigation.PushModalAsync(new DrawLogoPage());
         }
 
         void OpenAnimationPage_Tapped(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushModalAsync(new AnimationPage());
+            //Navigation.PushModalAsync(new AnimationPage());
         }
 
         void OpenAStockPage_Tapped(System.Object sender, System.EventArgs e)

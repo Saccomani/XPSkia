@@ -2,12 +2,12 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <_BundleResourceWithLogicalName Include="obj/Debug/actool/bundle/AppIcon.icns">
-      <LogicalName>AppIcon.icns</LogicalName>
       <Optimize>false</Optimize>
+      <LogicalName>AppIcon.icns</LogicalName>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/Debug/actool/bundle/Assets.car">
-      <LogicalName>Assets.car</LogicalName>
       <Optimize>false</Optimize>
+      <LogicalName>Assets.car</LogicalName>
     </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

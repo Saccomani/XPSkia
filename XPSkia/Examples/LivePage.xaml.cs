@@ -7,6 +7,23 @@ namespace XPSkia.Examples
 {
     public partial class LivePage : ContentPage
     {
+
+        SKPaint outlinePaint = new SKPaint {
+
+            Style = SKPaintStyle.Stroke,
+            StrokeWidth = 5,
+            Color = SKColors.White
+        };
+
+        SKPaint arcPaint = new SKPaint
+        {
+
+            Style = SKPaintStyle.Stroke,
+            StrokeWidth = 20,
+            Color = SKColors.Yellow
+        };
+
+
         public LivePage()
         {
             InitializeComponent();
@@ -26,29 +43,28 @@ namespace XPSkia.Examples
 
             canvas.Clear();
 
-            //paste the kimono code here
+            SKRect rect = new SKRect(100, 100, info.Width - 100, info.Height - 100);
 
-            // Fill color for Text Style
-            var TextStyleFillColor = new SKColor(0, 0, 0, 255);
+            canvas.DrawOval(rect, outlinePaint);
 
-            // New Text Style fill paint
-            var TextStyleFillPaint = new SKPaint()
+            float startAngle = (float)startAngleSlider.Value;
+            float sweepAngle = (float)sweepAngleSlider.Value;
+
+
+            using (SKPath path = new SKPath())
             {
-                Style = SKPaintStyle.Fill,
-                Color = TextStyleFillColor,
-                BlendMode = SKBlendMode.SrcOver,
-                IsAntialias = true,
-                Typeface = SKTypeface.FromFamilyName("Arial Black", SKTypefaceStyle.Bold),
-                TextSize = 30f,
-                TextAlign = SKTextAlign.Center,   
-                IsVerticalText = false,
-                TextScaleX = 1f,
-                TextSkewX = 0f
-            };
+                path.AddArc(rect, startAngle, sweepAngle);
+                canvas.DrawPath(path, arcPaint);
+            }
+        }
 
-            // Draw Text shape
-            canvas.DrawText("TIMAÇO BULL SKIA", 373.7559f, 201.8398f, TextStyleFillPaint);
+        void Slider_ValueChanged(System.Object sender, Xamarin.Forms.ValueChangedEventArgs e)
+        {
+            if (canvas is null)
+                return;
+            
 
+            canvas.InvalidateSurface();
         }
     }
 }

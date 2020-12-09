@@ -22,10 +22,4 @@
     <Folder Include="Helpers\" />
     <Folder Include="Images\" />
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Remove="Examples\Stock2ViewPage.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Examples\Stock2ViewPage.xaml.cs" />
-  </ItemGroup>
 </Project>

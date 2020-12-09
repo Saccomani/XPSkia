@@ -15,3 +15,19 @@
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.dll
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/ref/XPSkia.dll
 /Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/XPSkia.deps.json
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/XPSkia.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/ref/XPSkia.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/XPSkia.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/LivePage.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/Stock2ViewPage.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/StockViewPage.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.AssemblyInfoInputs.cache
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.AssemblyInfo.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.csproj.CoreCompileInputs.cache
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/ref/XPSkia.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/XPSkia.pdb

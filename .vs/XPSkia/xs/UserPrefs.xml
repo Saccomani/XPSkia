@@ -1,20 +1,25 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F481D396-2FE3-48AE-83E2-8F469DAE2FEF}|Default">
-  <MonoDevelop.Ide.ItemProperties.XPSkia.Mac PreferredExecutionTarget="Test1" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XPSkia.Mac TriggeredFromHotReload="False" PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XPSkia/Examples/LivePage.xaml.cs">
+    <Files>
+      <File FileName="XPSkia/Examples/LivePage.xaml" Line="11" Column="45" />
+      <File FileName="XPSkia/Examples/LivePage.xaml.cs" Line="56" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XPSkia" expanded="True" selected="True">
+          <Node name="XPSkia" expanded="True">
             <Node name="XPSkia" expanded="True">
               <Node name="Examples" expanded="True">
-                <Node name="AnimationPage.xaml" expanded="True" />
-                <Node name="DrawLogoView.xaml" expanded="True" />
-                <Node name="LivePage.xaml" expanded="True" />
-                <Node name="StockViewPage.xaml" expanded="True" />
+                <Node name="LivePage.xaml" expanded="True">
+                  <Node name="LivePage.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
-            <Node name="XPSkia.Mac" expanded="True" />
+            <Node name="XPSkia.Mac" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -27,7 +32,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia/Helpers/ButtonTrigger.cs" relfile="XPSkia/Helpers/ButtonTrigger.cs" line="9" column="1" />
+      <Breakpoint file="/Users/u003088/Documents/GitHub/XPSkia/XPSkia/Helpers/ButtonTrigger.cs" relfile="XPSkia/Helpers/ButtonTrigger.cs" line="9" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

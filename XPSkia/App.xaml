@@ -10,7 +10,7 @@
 		<ResourceDictionary>
 
 			        <!--Global Styles-->
-            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Color x:Key="NavigationPrimary"></Color>
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
@@ -31,6 +31,10 @@
 				<On Platform="macOS" Value="SegoeWP-Bold" />
 			</OnPlatform>
 
+			<Style TargetType="Frame">
+				<Setter Property="CornerRadius" Value="10"/>
+			</Style>
+
 
 
 			<Style TargetType="Label">
@@ -48,7 +52,7 @@
 			</Style>
 
 			<Style ApplyToDerivedTypes="True" TargetType="ContentPage">
-				<Setter Property="BackgroundColor" Value="#1B232E" />
+				<Setter Property="BackgroundColor" Value="#000000" />
 				<Setter Property="Padding" Value="10" />
 				<Setter Property="Visual" Value="Material" />
 

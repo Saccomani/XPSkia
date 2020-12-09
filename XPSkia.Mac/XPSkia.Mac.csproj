@@ -113,7 +113,6 @@
     <EmbeddedResource Include="Resources\logo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\bull_logo_splash.png" />
     <BundleResource Include="Resources\Fonts\Roboto-Medium.ttf" />
     <BundleResource Include="Resources\Fonts\Roboto-Regular.ttf" />
     <BundleResource Include="Resources\Fonts\segoe-wp.ttf" />
@@ -122,6 +121,7 @@
     <BundleResource Include="Resources\Fonts\SegoeWP-Light.ttf" />
     <BundleResource Include="Resources\Fonts\SegoeWP-Semibold.ttf" />
     <BundleResource Include="Resources\Fonts\SegoeWP-Semilight.ttf" />
+    <BundleResource Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.4.7.0.1080\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.4.7.0.1080\build\Xamarin.Forms.targets')" />

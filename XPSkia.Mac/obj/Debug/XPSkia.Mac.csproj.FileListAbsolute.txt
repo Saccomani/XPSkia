@@ -1,23 +1,23 @@
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.Mac.exe
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.Mac.pdb
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Newtonsoft.Json.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Forms.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Mac.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Core.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Platform.macOS.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.dll
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.pdb
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.xml
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Mac.xml
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/bin/Debug/Newtonsoft.Json.xml
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/actool/_PartialAppManifest.items
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csprojAssemblyReference.cache
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CoreCompileInputs.cache
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XamlC.stamp
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CopyComplete
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.exe
-/Users/Shared/Previously Relocated Items/Security/Bull/XPSkia/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.Mac.exe
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.Mac.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Newtonsoft.Json.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Forms.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Mac.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Core.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Platform.macOS.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.dll
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/XPSkia.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.xml
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/SkiaSharp.Views.Mac.xml
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Newtonsoft.Json.xml
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/actool/_PartialAppManifest.items
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CoreCompileInputs.cache
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XamlC.stamp
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CopyComplete
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.exe
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.pdb
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csprojAssemblyReference.cache
