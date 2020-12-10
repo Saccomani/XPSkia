@@ -15,17 +15,25 @@ namespace XPSkia.Examples
         {
             InitializeComponent();
 
-            stockPrices1.Clear();
-            stockPrices2.Clear();
 
-
-            for (int i = 0; i < 100; i++)
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
-                stockPrices1.Add(new Random().Next(0, 60));
-                stockPrices2.Add(new Random().Next(0, 500));
-            }
 
-            chartCanvasView.InvalidateSurface();
+                    
+                stockPrices1.Clear();
+                stockPrices2.Clear();
+
+
+                for (int i = 0; i < 100; i++)
+                {
+                    stockPrices1.Add(new Random().Next(0, 60));
+                    stockPrices2.Add(new Random().Next(0, 500));
+                }
+
+                chartCanvasView.InvalidateSurface();
+
+                return true;
+            });
 
         }
 

@@ -15,9 +15,9 @@
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/bin/Debug/Newtonsoft.Json.xml
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/actool/_PartialAppManifest.items
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csprojAssemblyReference.cache
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CoreCompileInputs.cache
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XamlC.stamp
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csproj.CopyComplete
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.exe
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.pdb
-/Users/u003088/Documents/GitHub/XPSkia/XPSkia.Mac/obj/Debug/XPSkia.Mac.csprojAssemblyReference.cache

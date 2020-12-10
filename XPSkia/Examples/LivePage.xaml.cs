@@ -13,14 +13,16 @@ namespace XPSkia.Examples
             Style = SKPaintStyle.Stroke,
             StrokeWidth = 5,
             Color = SKColors.White
+            
         };
 
         SKPaint arcPaint = new SKPaint
         {
 
             Style = SKPaintStyle.Stroke,
-            StrokeWidth = 20,
-            Color = SKColors.Yellow
+            StrokeWidth = 30,
+            Color = SKColors.Purple,
+            PathEffect = SKPathEffect.CreateCorner(10)
         };
 
 

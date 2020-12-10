@@ -30,13 +30,13 @@
                     FontSize="Large"
                     HorizontalOptions="FillAndExpand"
                     HorizontalTextAlignment="Center"
-                    Text="Desenhar Logo (SVG)"
+                    Text="Animação Básica"
                     TextColor="White"
                     VerticalOptions="FillAndExpand"
                     VerticalTextAlignment="Center" />
             </StackLayout>
             <Frame.GestureRecognizers>
-                <TapGestureRecognizer Tapped="OpenDrawLogo_Tapped" />
+                <TapGestureRecognizer Tapped="OpenAnimationPage_Tapped" />
             </Frame.GestureRecognizers>
         </Frame>
 

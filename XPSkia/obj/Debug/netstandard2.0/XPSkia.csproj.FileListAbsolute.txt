@@ -20,6 +20,7 @@
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/ref/XPSkia.dll
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/bin/Debug/netstandard2.0/XPSkia.pdb
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/AnimationPage.xaml.g.cs
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/LivePage.xaml.g.cs
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/Stock2ViewPage.xaml.g.cs
 /Users/u003088/Documents/GitHub/XPSkia/XPSkia/obj/Debug/netstandard2.0/Examples/StockViewPage.xaml.g.cs

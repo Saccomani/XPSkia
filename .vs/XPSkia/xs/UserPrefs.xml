@@ -1,9 +1,8 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F481D396-2FE3-48AE-83E2-8F469DAE2FEF}|Default">
   <MonoDevelop.Ide.ItemProperties.XPSkia.Mac TriggeredFromHotReload="False" PreferredExecutionTarget="Test1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XPSkia/Examples/LivePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XPSkia/Examples/AnimationPage.xaml.cs">
     <Files>
-      <File FileName="XPSkia/Examples/LivePage.xaml" Line="11" Column="45" />
-      <File FileName="XPSkia/Examples/LivePage.xaml.cs" Line="56" Column="1" />
+      <File FileName="XPSkia/Examples/AnimationPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,14 +10,12 @@
           <Node name="XPSkia" expanded="True">
             <Node name="XPSkia" expanded="True">
               <Node name="Examples" expanded="True">
-                <Node name="LivePage.xaml" expanded="True">
-                  <Node name="LivePage.xaml.cs" selected="True" />
+                <Node name="AnimationPage.xaml" expanded="True">
+                  <Node name="AnimationPage.xaml.cs" selected="True" />
                 </Node>
+                <Node name="LivePage.xaml" expanded="True" />
               </Node>
               <Node name="MainPage.xaml" expanded="True" />
-            </Node>
-            <Node name="XPSkia.Mac" expanded="True">
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
