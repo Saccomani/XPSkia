@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:skiaforms="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XPSkia.Examples.KimonoPage">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <skiaforms:SKCanvasView
+                x:Name="canvasView"
+               PaintSurface="canvasView_PaintSurface"
+                VerticalOptions="FillAndExpand" />
+
+
+            <Button Clicked="btnVoltar_Clicked" Text="Voltar" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

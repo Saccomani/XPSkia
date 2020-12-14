@@ -14,6 +14,8 @@ namespace XPSkia.Examples
         Stopwatch stopwatch = new Stopwatch();
         bool pageIsActive;
         float t;
+
+
         SKPaint paint = new SKPaint
         {
             Style = SKPaintStyle.Stroke

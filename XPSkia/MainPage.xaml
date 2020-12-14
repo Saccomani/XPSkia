@@ -53,13 +53,13 @@
                     FontSize="Large"
                     HorizontalOptions="FillAndExpand"
                     HorizontalTextAlignment="Center"
-                    Text="Animações"
+                    Text="Live coding"
                     TextColor="White"
                     VerticalOptions="FillAndExpand"
                     VerticalTextAlignment="Center" />
             </StackLayout>
             <Frame.GestureRecognizers>
-                <TapGestureRecognizer Tapped="OpenAnimationPage_Tapped" />
+                <TapGestureRecognizer Tapped="OpenLivePage_Tapped" />
             </Frame.GestureRecognizers>
         </Frame>
 
@@ -107,7 +107,7 @@
                     VerticalTextAlignment="Center" />
             </StackLayout>
             <Frame.GestureRecognizers>
-                <TapGestureRecognizer Tapped="OpenAStockPage2_Tapped" />
+                <TapGestureRecognizer Tapped="OpenKimonoPage_Tapped" />
             </Frame.GestureRecognizers>
         </Frame>
     </Grid>

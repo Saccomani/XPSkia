@@ -30,9 +30,14 @@ namespace XPSkia
             Navigation.PushModalAsync(new StockViewPage());
         }
 
-        void OpenAStockPage2_Tapped(System.Object sender, System.EventArgs e)
+        void OpenLivePage_Tapped(System.Object sender, System.EventArgs e)
         {
             Navigation.PushModalAsync(new LivePage());
+        }
+
+        void OpenKimonoPage_Tapped(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new KimonoPage());  
         }
     }
 }
